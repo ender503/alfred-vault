@@ -1,0 +1,28 @@
+{
+  "name": "alfred-vault",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "Alfred Workflow - Read secrets from HashiCorp Vault",
+  "author": {
+    "name": "ender503",
+    "email": "ender503.tw@gmail.com",
+    "url": "https://github.com/ender503/alfred-vault"
+  },
+  "keywords": [
+    "vault",
+    "alfred",
+    "alfred-workflow",
+    "alfred3",
+    "alfred3-workflow",
+    "alfy"
+  ],
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "dependencies": {
+    "alfy": "^0.10.0",
+    "node-vault": "^0.9.20"
+  }
+}
